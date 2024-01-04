@@ -7,8 +7,8 @@ public class BubbleSort {
 
     public static void sort(int[] arr) {
 
-        boolean swap = false;
         for (int i = 0; i < arr.length; i++) {
+            boolean swap = false;
             for (int j = 0; j < arr.length - i - 1; j++) {
                 if (arr[j + 1] <= arr[j]) {
                     swap(arr, j + 1, j);
